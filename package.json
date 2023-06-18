@@ -1,9 +1,9 @@
 {
-  "name": "nodejs-package-template",
+  "name": "mini-game-set",
   "version": "0.0.1",
-  "description": "Node.js package template",
+  "description": "Mini-game set",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "mini-games": "bin/mini-games.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dmytr1K/nodejs-package-template.git"
+    "url": "git+https://github.com/Dmytr1K/mini-game-set.git"
   },
   "author": "Dmytro Korzhov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dmytr1K/nodejs-package-template/issues"
+    "url": "https://github.com/Dmytr1K/mini-game-set/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/Dmytr1K/nodejs-package-template#readme",
+  "homepage": "https://github.com/Dmytr1K/mini-game-set#readme",
   "keywords": [
     "node.js",
     "package",

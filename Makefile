@@ -5,7 +5,7 @@ install-deps:
 	npm ci
 
 run:
-	bin/nodejs-package.js 'World'
+	bin/mini-games.js 'World'
 
 test:
 	npm test

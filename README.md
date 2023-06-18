@@ -1,15 +1,15 @@
-# Node.js package template
+# Mini-game set
 
-[![Node CI](https://github.com/Dmytr1K/nodejs-package-template/workflows/Node%20CI/badge.svg)](https://github.com/Dmytr1K/nodejs-package-template/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/1f71a14e598ac96a7ee6/maintainability)](https://codeclimate.com/github/Dmytr1K/nodejs-package-template/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/1f71a14e598ac96a7ee6/test_coverage)](https://codeclimate.com/github/Dmytr1K/nodejs-package-template/test_coverage)
+[![Node CI](https://github.com/Dmytr1K/mini-game-set/workflows/Node%20CI/badge.svg)](https://github.com/Dmytr1K/mini-game-set/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ebbaa796551b9fcd1b25/maintainability)](https://codeclimate.com/github/Dmytr1K/mini-game-set/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ebbaa796551b9fcd1b25/test_coverage)](https://codeclimate.com/github/Dmytr1K/mini-game-set/test_coverage)
 
 ## Setup
 
 ```bash
-git clone git@github.com/Dmytr1K/nodejs-package-template.git
+git clone git@github.com/Dmytr1K/mini-game-set.git
 
-cd nodejs-package-template
+cd mini-game-set
 
 make install
 ```
