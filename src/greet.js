@@ -1,11 +1,10 @@
 // @ts-check
 
 /**
- * @param {string} name
  * @return {string}
  */
-const greet = (name) => {
-  const result = `Hello, ${name}!`;
+const greet = () => {
+  const result = `Welcome to the Mini-games!`;
   return result;
 };
 
