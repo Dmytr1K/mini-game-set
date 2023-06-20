@@ -26,9 +26,11 @@
   "type": "module",
   "homepage": "https://github.com/Dmytr1K/mini-game-set#readme",
   "keywords": [
-    "node.js",
-    "package",
-    "template"
+    "pet project",
+    "cli games",
+    "math games",
+    "brain games",
+    "hexlet"
   ],
   "devDependencies": {
     "@jest/globals": "^29.5.0",
