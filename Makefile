@@ -7,6 +7,15 @@ install-deps:
 run:
 	bin/mini-games.js
 
+global-install: install
+	npm link
+
+global-uninstall:
+	npm uninstall --global mini-game-set
+
+global-run:
+	mini-games
+
 test:
 	npm test
 
