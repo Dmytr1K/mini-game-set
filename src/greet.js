@@ -7,9 +7,9 @@ const greet = () => {
   console.log(`${welcome()}\n`);
 
   const question = 'May I have your name? ';
-  const userAnswer = getUserAnswer(question);
+  const userName = getUserAnswer(question);
 
-  console.log(`Hello, ${userAnswer}!`);
+  console.log(`Hello, ${userName}!`);
 };
 
 export default greet;
