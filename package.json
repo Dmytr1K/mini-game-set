@@ -45,5 +45,8 @@
     "npm-check-updates": "^16.10.12",
     "prettier": "^2.8.8",
     "simple-git-hooks": "^2.8.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }

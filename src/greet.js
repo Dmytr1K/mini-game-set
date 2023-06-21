@@ -1,11 +1,15 @@
 // @ts-check
 
-/**
- * @return {string}
- */
+import welcome from './welcome.js';
+import getUserAnswer from './get-user-answer.js';
+
 const greet = () => {
-  const result = `Welcome to the Mini-games!`;
-  return result;
+  console.log(`${welcome()}\n`);
+
+  const question = 'May I have your name? ';
+  const userAnswer = getUserAnswer(question);
+
+  console.log(`Hello, ${userAnswer}!`);
 };
 
 export default greet;
