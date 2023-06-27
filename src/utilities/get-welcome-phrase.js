@@ -3,10 +3,10 @@
 /**
  * @return {string}
  */
-const welcome = () => {
+const getWelcomePhrase = () => {
   const welcomePhrase = `Welcome to the Mini-games!`;
 
   return welcomePhrase;
 };
 
-export default welcome;
+export default getWelcomePhrase;

@@ -1,10 +1,10 @@
 // @ts-check
 
 import { describe, expect, test } from '@jest/globals';
-import welcome from '../src/welcome.js';
+import getWelcomePhrase from '../src/utilities/get-welcome-phrase.js';
 
-describe('welcome module', () => {
-  test("welcome to equal 'Welcome to the Mini-games!'", () => {
-    expect(welcome()).toBe('Welcome to the Mini-games!');
+describe('getWelcomePhrase module', () => {
+  test("getWelcomePhrase to equal 'Welcome to the Mini-games!'", () => {
+    expect(getWelcomePhrase()).toBe('Welcome to the Mini-games!');
   });
 });

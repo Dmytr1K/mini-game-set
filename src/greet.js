@@ -1,10 +1,10 @@
 // @ts-check
 
-import welcome from './welcome.js';
-import getUserAnswer from './get-user-answer.js';
+import getWelcomePhrase from './utilities/get-welcome-phrase.js';
+import getUserAnswer from './utilities/get-user-answer.js';
 
 const greet = () => {
-  console.log(`${welcome()}\n`);
+  console.log(`${getWelcomePhrase()}\n`);
 
   const question = 'May I have your name? ';
   const userName = getUserAnswer(question);
