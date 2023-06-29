@@ -1,15 +1,15 @@
-import run from '../run.js';
+import runGame from '../run-game.js';
 import getRandomInt from '../utilities/get-random-int.js';
 
-const description = 'Answer "yes" if number even otherwise answer "no".';
+const gameRules = 'Answer "yes" if number even otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
-const getGameData = () => {
+const getGameStageData = () => {
   const question = getRandomInt();
   const correctAnswer = isEven(question) ? 'yes' : 'no';
 
   return { question, correctAnswer };
 };
 
-export default () => run(description, getGameData);
+export default () => runGame(gameRules, getGameStageData());

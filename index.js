@@ -1,6 +1,6 @@
 // @ts-check
 
-import greet from './src/greet.js';
-import evenNumber from './src/games/even-number.js';
+import greetPlayer from './src/greet-player.js';
+import runEvenNumberGame from './src/games/even-number.js';
 
-export { greet, evenNumber };
+export { greetPlayer, runEvenNumberGame };
